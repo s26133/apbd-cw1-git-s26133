@@ -1,1 +1,2 @@
 # apbd-cw1-git-s26133
+Zadanie 5 - Merge nie był fast-forward, ponieważ w międzyczasie na gałezi main pojawił się nowy commit. Git musiał połączyć dwie niezależne gałezie histori za pomocą merge commita.
