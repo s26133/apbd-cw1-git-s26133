@@ -6,5 +6,6 @@ namespace ProgramAfirmacja
 {
     internal class StatisticsHelper
     {
+        public static int CalculateMax(int[] values) => values.Max();
     }
 }
