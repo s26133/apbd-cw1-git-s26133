@@ -10,7 +10,7 @@ class Program
 
         if (liczba <= 8)
         {
-            Console.WriteLine("Goodbye, you are a vengeful pear's son!"); //wypisze sie 8 na 10 przypadków, losowo
+            Console.WriteLine("Witaj, jesteś wspaniałą osobą!"); //wypisze sie 8 na 10 przypadków, losowo
             Console.WriteLine(@"
      .ooooo.
    .oP""   ""bo.
