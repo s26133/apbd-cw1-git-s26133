@@ -4,7 +4,7 @@
     {
         Random random = new Random();
 
-        int liczba = random.Next(1, 11);
+        int liczba = random.Next(1, 101);
 
         if (liczba <= 8)
         {
@@ -37,7 +37,7 @@ oP'           `Yo
    `""YoooooY""'");
 
         }
-        else if (liczba == 10)
+        else if (liczba >= 10)
         {
             Console.WriteLine("Hello, you are the worst!");
             Console.WriteLine(@"
