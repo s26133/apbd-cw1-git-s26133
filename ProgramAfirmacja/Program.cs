@@ -10,9 +10,13 @@
         {
             Console.WriteLine("Hello, you are a wonderful person!"); //wypisze sie 8 na 10 przypadków, losowo
         }
-        else
+        else if (liczba == 9)
         {
             Console.WriteLine("Hello, you are NOT a wonderful person!"); 
+        }
+        else if (liczba == 10)
+        {
+            Console.WriteLine("Hello, you are the worst!");
         }
     }
 }
