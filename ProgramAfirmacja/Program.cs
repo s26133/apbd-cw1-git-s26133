@@ -1,4 +1,6 @@
-﻿class Program
+﻿using ProgramAfirmacja;
+
+class Program
 {
     static void Main()
     {
@@ -52,5 +54,8 @@ oP'   /     \   `Yo
  `Yo.       .oP'
    `""YoooooY""'");
         }
+
+        int[] liczby = { 5, 2, 8, 1 };
+        Console.WriteLine("Minimum to: " + StatisticsHelper.CalculateMin(liczby));
     }
 }
